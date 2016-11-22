@@ -1,4 +1,4 @@
-# DBclass
+# MySQLi simple class
 
 ##Initialization:
 ```

@@ -2,7 +2,7 @@
 
 ##Initialization:
 ```
-PanelDatabase::connect('localhost','Login','Password','table');
+PanelDatabase::connect('localhost','Login','Password','dbname');
 ```
 
 ##PanelDatabase::SINGLE:

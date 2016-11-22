@@ -2,36 +2,36 @@
 
 ##Initialization:
 ```
-PanelDatabase::connect('localhost','Login','Password','dbname');
+DataBase::connect('localhost','Login','Password','dbname');
 ```
 
-##PanelDatabase::SINGLE:
+##DataBase::SINGLE:
 ```
-PanelDatabase::query('SELECT name FROM table WHERE id='.$id, PanelDatabase::SINGLE);
+DataBase::query('SELECT name FROM table WHERE id='.$id, DataBase::SINGLE);
 ```
 Return value of first column of first row as text
 
-##PanelDatabase::ROW:
+##DataBase::ROW:
 ```
-PanelDatabase::query('SELECT * FROM table', PanelDatabase::ROW);
+DataBase::query('SELECT * FROM table', DataBase::ROW);
 ```
 Return first row as associative array
 
-##PanelDatabase::ALL:
+##DataBase::ALL:
 ```
-PanelDatabase::query('SELECT * FROM table', PanelDatabase::ALL);
+DataBase::query('SELECT * FROM table', DataBase::ALL);
 ```
 Return all rows as list of associative arrays
 
-##PanelDatabase::AFFECTED:
+##DataBase::AFFECTED:
 ```
-PanelDatabase::query('SELECT * FROM table', PanelDatabase::AFFECTED);
+DataBase::query('SELECT * FROM table', DataBase::AFFECTED);
 ```
 Return amount of rows affected by INSERT, UPDATE and DELETE queries
 
-##PanelDatabase::IDENTIFIER:
+##DataBase::IDENTIFIER:
 ```
-PanelDatabase::query('INSERT INTO table (`row`) VALUES ("value")', PanelDatabase::IDENTIFIER)
+DataBase::query('INSERT INTO table (`row`) VALUES ("value")', DataBase::IDENTIFIER)
 ```
 Return identifier of inserted row (AUTO_INCREMENT field)
 

@@ -2,11 +2,11 @@
 /**
  * Class for accessing database
  * @author But Oleksandr <https://butalex.com>
- * @idea Michal Dutkiewicz <http://emdek.pl>
+ * @author Michal Dutkiewicz <http://emdek.pl>
  * @version 0.1
  */
 
-class PanelDatabase
+class DataBase
 {
 
 /**
